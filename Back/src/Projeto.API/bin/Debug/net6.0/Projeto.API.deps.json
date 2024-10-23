@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ProEventos.API/1.0.0": {
+      "Projeto.API/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "ProEventos.API.dll": {}
+          "Projeto.API.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -64,7 +64,7 @@
     }
   },
   "libraries": {
-    "ProEventos.API/1.0.0": {
+    "Projeto.API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
