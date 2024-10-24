@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CsharpWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj": {}
+    "C:\\FullstackWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj": {}
   },
   "projects": {
-    "C:\\CsharpWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj": {
+    "C:\\FullstackWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CsharpWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj",
+        "projectUniqueName": "C:\\FullstackWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj",
         "projectName": "Projeto.API",
-        "projectPath": "C:\\CsharpWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj",
+        "projectPath": "C:\\FullstackWeb\\Back\\src\\Projeto.API\\Projeto.API.csproj",
         "packagesPath": "C:\\Users\\washington\\.nuget\\packages\\",
-        "outputPath": "C:\\CsharpWeb\\Back\\src\\Projeto.API\\obj\\",
+        "outputPath": "C:\\FullstackWeb\\Back\\src\\Projeto.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\washington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
