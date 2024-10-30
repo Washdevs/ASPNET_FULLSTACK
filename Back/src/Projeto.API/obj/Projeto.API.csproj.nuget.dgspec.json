@@ -1,42 +1,25 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\FullstackWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj": {}
+    "C:\\ASPNET\\Back\\src\\Projeto.API\\Projeto.API.csproj": {}
   },
   "projects": {
-    "C:\\FullstackWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj": {
+    "C:\\ASPNET\\Back\\src\\Projeto.API\\Projeto.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FullstackWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj",
+        "projectUniqueName": "C:\\ASPNET\\Back\\src\\Projeto.API\\Projeto.API.csproj",
         "projectName": "Projeto.API",
-        "projectPath": "C:\\FullstackWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj",
-        "packagesPath": "C:\\Users\\washington\\.nuget\\packages\\",
-        "outputPath": "C:\\FullstackWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\obj\\",
-=======
-    "C:\\CsharpWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj": {}
-  },
-  "projects": {
-    "C:\\CsharpWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\CsharpWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj",
-        "projectName": "Projeto.API",
-        "projectPath": "C:\\CsharpWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\Projeto.API.csproj",
-        "packagesPath": "C:\\Users\\washington\\.nuget\\packages\\",
-        "outputPath": "C:\\CsharpWeb\\CSharp_FullStack\\Back\\src\\Projeto.API\\obj\\",
->>>>>>> 47cc2fb58d7d6928cd88a0299e6b1839f4000e21
+        "projectPath": "C:\\ASPNET\\Back\\src\\Projeto.API\\Projeto.API.csproj",
+        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
+        "outputPath": "C:\\ASPNET\\Back\\src\\Projeto.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\washington\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,13 +36,38 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -79,19 +87,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.35, 6.0.35]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
+              "version": "[6.0.33, 6.0.33]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12\\RuntimeIdentifierGraph.json"
         }
       }
     }
